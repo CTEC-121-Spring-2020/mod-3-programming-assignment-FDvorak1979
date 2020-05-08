@@ -6,28 +6,28 @@
 
 def letterGrade(score):
     if score == 5:
-        letterGrade = 'A'
+        grade = 'A'
     elif score == 4:
-        letterGrade = 'B'
+        grade = 'B'
     elif score == 3:
-        letterGrade = 'C'
+        grade = 'C'
     elif score == 2:
-        letterGrade = 'D'
+        grade = 'D'
     elif score == 1:
-        letterGrade = 'F'
+        grade = 'F'
     elif score == 0:
-        letterGrade = 'F'
-
-
-
-    
-    return letterGrade
+        grade = 'F'
+    return grade
 
     
-'''
+
 def unitTest():
-    # your test code here
+    print("Score = 5 Returns", letterGrade(5))
+    print("Score = 4 Returns", letterGrade(4))
+    print("Score = 3 Returns", letterGrade(3))
+    print("Score = 2 Returns", letterGrade(2))
+    print("Score = 1 Returns", letterGrade(1))
+    print("Score = 0 Returns", letterGrade(0))
 
 if __name__ == "__main__":
     unitTest()
-'''
