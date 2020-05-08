@@ -30,16 +30,16 @@ def letterGrade(score):
     
 
 def unitTest():
-    print("Score = 96 Returns", letterGrade(96))
-    print("Score = 92 Returns", letterGrade(92))
-    print("Score = 88.6 Returns", letterGrade(88.6))
-    print("Score = 84.3 Returns", letterGrade(84.3))
-    print("Score = 82.9 Returns", letterGrade(82.9))
-    print("Score = 77.7 Returns", letterGrade(77.7))
-    print("Score = 71.3 Returns", letterGrade(71.3))
-    print("Score = 66.6 Returns", letterGrade(66.6))
-    print("Score = 53.3 Returns", letterGrade(53.3))
-    print("Score = 1.5 Returns", letterGrade(1.5))
+    print("Torm got 100 and earnned an", letterGrade(100))
+    print("Azael got 92 and earnned an", letterGrade(92))
+    print("Blain got 88.6 and earned a", letterGrade(88.6))
+    print("Lucian got 84.6 and earned a", letterGrade(84.3))
+    print("One of Lucian's emoloyies earned a 82.9 Returns", letterGrade(82.9))
+    print("Amaon was drunk as usual and when taking the test only got 77.6", letterGrade(77.7))
+    print("Aarron did not study and was out all night being a vigilanty and got 71.3 ", letterGrade(71.3))
+    print("Some one, who wishes to remain anonamous out of shame got 66.6", letterGrade(66.6))
+    print("Rockanoth was working all night than got drunk and came to the test with a hang over and got 53.3 Returns", letterGrade(53.3))
+    print("Grim got 1.5 and earned an", letterGrade(1.5))
 
 if __name__ == "__main__":
     unitTest()
