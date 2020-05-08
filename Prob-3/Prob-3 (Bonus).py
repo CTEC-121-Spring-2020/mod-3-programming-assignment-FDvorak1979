@@ -39,7 +39,7 @@ def unitTest():
     print("Aarron did not study and was out all night being a vigilanty and got 71.3 ", letterGrade(71.3))
     print("Some one, who wishes to remain anonamous out of shame got 66.6", letterGrade(66.6))
     print("Rockanoth was working all night than got drunk and came to the test with a hang over and got 53.3", letterGrade(53.3))
-    print("Grim got 1.5 and earned an", letterGrade(1.5))
+    print("Grim got 1.5 and flunked.... ok grim got a point for spelling his name right... and thats about it other than one easy question which he got half right", letterGrade(1.5))
 
 if __name__ == "__main__":
     unitTest()
