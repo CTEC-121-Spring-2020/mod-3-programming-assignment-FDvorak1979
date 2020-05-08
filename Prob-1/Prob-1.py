@@ -7,6 +7,8 @@
 def shippingCost(orderSubTotal):
     shippingCost = 2.99
     # enter code here to test for free
+    if orderSubTotal >= 10.0:
+        shippingCost = 0.0
 
 
     return shippingCost
