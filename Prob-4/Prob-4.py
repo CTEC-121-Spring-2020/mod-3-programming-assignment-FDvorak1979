@@ -24,12 +24,14 @@ def coffeeProcessor():
     priceOfCoffee = 16.50
 
     # get number of pounds from user
-    quantity = evaluate(input("How many pounds of coffee would you like to order? )
+    # added space and qutation mark
+    quantity = evaluate(input("How many pounds of coffee would you like to order? ")
     
     # Check number of pounds ordered
     # If less than or equal to 10 pounds we must charge for shipping
-    if quantity <= 10:
-        shippingPerPound = .76
+    # Removed ":" simbol
+    if quantity <= 10
+        shippingPerPound = 0.76
     else
         shippingPerPound = 0      
 
