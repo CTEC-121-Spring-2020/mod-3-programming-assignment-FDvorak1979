@@ -12,6 +12,6 @@ def main():
     except TypeError:
         print("Invalid input, must be string, bytes or code")
     
-    except SyntaxError:
-        print("missing indented block in Line 20")
+    except:
+        print("Unknown Layer 8 issue")
 main()
